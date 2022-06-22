@@ -79,4 +79,4 @@ D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\bin\Microsoft.CodeDom.Providers.Do
 D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\obj\Debug\WebApp.Pedidos.csproj.CoreCompileInputs.cache
 D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\obj\Debug\WebApp.Pedidos.dll
 D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\obj\Debug\WebApp.Pedidos.pdb
-D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\obj\Debug\WebApp.Pedidos.csproj.CopyComplete
+D:\Projetos\Web\WebApp.Pedidos\WebApp.Pedidos\obj\Debug\WebApp.Pedidos.csproj.AssemblyReference.cache
