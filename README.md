@@ -15,7 +15,7 @@ Para realizar o acesso ao projeto basta realizar o clone: "git clone https://git
 
 - Vencimento do Pedido
   - Pedidos que estão com a data de vencimento além dos próximos 3 dias em verde
-  - Pedidos com data de vencimento em até ou em 3 dias em amarelo
+  - Pedidos que estão com a data de vencimento em até 3 dias em amarelo
   - Pedidos que passaram a data de vencimento em vermelho
 
 ![image](https://user-images.githubusercontent.com/21315200/175136912-84b5f865-cf6b-4486-8d6f-a8e7b0cf24e7.png)
