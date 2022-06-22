@@ -1,0 +1,104 @@
+﻿@model WebApp.Pedidos.Models.Pedido
+
+@{
+    ViewBag.Title = "Aplicar Desconto";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <hr />
+    <h4>Dados do Pedido</h4>
+    <dl class="dl-horizontal">
+
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeProduto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeProduto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd id="valor-atual">
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataVencimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataVencimento)
+        </dd>
+    </dl>
+    <hr />
+
+    <h4>Aplicação de Desconto</h4>
+    <dl class="dl-horizontal">
+        <dt>
+            <label>Tipo de Desconto</label>
+        </dt>
+
+        <dd>
+            <label class="radio-inline">
+                <input type="radio" name="radio-options" value="option1" checked> Porcentagem
+            </label>
+            <label class="radio-inline">
+                <input type="radio" name="radio-options" value="option2"> Valor
+            </label>
+        </dd>
+
+        <dt>
+            <label>Valor de Desconto</label>
+        </dt>
+
+        <dd>
+            <div class="input-group col-md-3" id="input-group-valor-desconto">
+                <span class="input-group-addon">%</span>
+                <input type="number" class="form-control">
+            </div>
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        <dl class="dl-horizontal">
+            @Html.AntiForgeryToken()
+            @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+            @Html.HiddenFor(model => model.Id)
+            @Html.HiddenFor(model => model.NomeProduto)
+            @Html.HiddenFor(model => model.DataVencimento)
+
+            <dt>
+                <label>Novo Valor</label>
+            </dt>
+
+            <dd>
+                <div class="input-group col-md-3">
+                    <span class="input-group-addon">R$</span>
+                    @Html.EditorFor(model => model.Valor, new { htmlAttributes = new { @class = "form-control", @id = "result-novo-valor" } })
+                </div>
+                @Html.ValidationMessageFor(model => model.Valor, "", new { @class = "text-danger" })
+            </dd>
+
+        </dl>
+
+        <div class="form-group">
+            <input type="submit" value="Aplicar Desconto" class="btn btn-info" />
+        </div>
+    }
+
+</div>
+<p>
+    @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+
+</p>
+
+@section Scripts {
+    @Scripts.Render("~/Scripts/produtos-discount.js")
+}

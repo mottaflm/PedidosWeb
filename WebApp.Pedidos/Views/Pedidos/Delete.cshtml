@@ -1,0 +1,52 @@
+﻿@model WebApp.Pedidos.Models.Pedido
+
+@{
+    ViewBag.Title = "Remover Pedido";
+}
+
+<h2>@ViewBag.Title</h2>
+
+<div>
+    <hr />
+    <div class="alert alert-danger" role="alert">
+        <strong>Atenção!</strong>
+        Deseja realmente remover este pedido?
+    </div>
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.NomeProduto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.NomeProduto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Valor)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Valor)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DataVencimento)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DataVencimento)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm())
+    {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            @Html.ActionLink("Voltar", "Index", null, new { @class = "btn btn-default" })
+            <input type="submit" value="Remover Pedido" class="btn btn-danger" />
+            
+        </div>
+    }
+</div>
