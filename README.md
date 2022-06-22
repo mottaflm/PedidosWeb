@@ -5,7 +5,7 @@ PedidosWeb é um Programa Web em ASP.NET MVC5 (.NET Framework) para fins de apre
 
 ![image](https://user-images.githubusercontent.com/21315200/175049089-725dc506-a74c-4ecb-abd9-24edd0192428.png)
 
-Para realizar o acesso ao projeto basta realzar o clone: "git clone https://github.com/mottaflm/PedidosWeb.git NOME_PASTA" e executar o .sln
+Para realizar o acesso ao projeto basta realizar o clone: "git clone https://github.com/mottaflm/PedidosWeb.git NOME_PASTA" e executar o .sln
 
 <h3>Funcionalidades</h3>
 
@@ -14,9 +14,9 @@ Para realizar o acesso ao projeto basta realzar o clone: "git clone https://gith
 ![image](https://user-images.githubusercontent.com/21315200/175083750-5472ab34-80a9-43cb-89ff-27c984e29096.png)
 
 - Vencimento do Pedido
-  - Pedidos que passaram a data de vencimento em vermelho
-  - Pedidos com data de vencimento em até ou em 3 dias em amarelo
   - Pedidos que estão com a data de vencimento além dos próximos 3 dias em verde
+  - Pedidos com data de vencimento em até ou em 3 dias em amarelo
+  - Pedidos que passaram a data de vencimento em vermelho
 
 ![image](https://user-images.githubusercontent.com/21315200/175136912-84b5f865-cf6b-4486-8d6f-a8e7b0cf24e7.png)
 
