@@ -1,7 +1,7 @@
 # PedidosWeb
 
 
-Pedidos Web é um Programa Web em ASP.NET MVC5 (.NET Framework) para fins de aprendizado.
+PedidosWeb é um Programa Web em ASP.NET MVC5 (.NET Framework) para fins de aprendizado.
 
 ![image](https://user-images.githubusercontent.com/21315200/175049089-725dc506-a74c-4ecb-abd9-24edd0192428.png)
 
