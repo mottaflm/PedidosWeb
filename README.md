@@ -13,6 +13,11 @@ Para realizar o acesso ao projeto basta realzar o clone: "git clone https://gith
 
 ![image](https://user-images.githubusercontent.com/21315200/175083750-5472ab34-80a9-43cb-89ff-27c984e29096.png)
 
+- Vencimento do Pedido
+  - Pedidos que passaram a data de vencimento em vermelho
+  - Pedidos com data de vencimento em até ou em 3 dias em amarelo
+  - Pedidos que estão com a data de vencimento além dos próximos 3 dias em verde
+
 - CREATE
 
 ![image](https://user-images.githubusercontent.com/21315200/175083125-2fe74c94-26e5-4843-b42f-3641408ea89a.png)
