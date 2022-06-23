@@ -7,6 +7,21 @@ PedidosWeb é um Programa Web em ASP.NET MVC5 (.NET Framework) para fins de apre
 
 Para realizar o acesso ao projeto basta realizar o clone: "git clone https://github.com/mottaflm/PedidosWeb.git NOME_PASTA", executar o .sln e compilar/executar o projeto (F5).
 
+<h3>Requisitos</h3>
+
+- Git para clone do projeto (Caso prefira, é possível baixar a solução em .zip)
+- Visual Studio 2019 (ou compatível) com Módulos: 
+    
+  - Processamento de dados LocalDB(SQL):
+
+  ![image](https://user-images.githubusercontent.com/21315200/175318125-2ed49ca4-b642-4e60-8e69-71b9f5591133.png)
+
+  - APS.NET Desenvolvimento Web (.Net Framework 4.7.2):
+
+  ![image](https://user-images.githubusercontent.com/21315200/175317645-aeafe51b-4879-4c6e-af5b-589e09e6487f.png)
+
+ 
+
 <h3>Funcionalidades</h3>
 
 - Aplicação de Desconto por Porcentagem ou Subtração de Valor
@@ -36,9 +51,4 @@ Persistência no Banco:
 
 ![image](https://user-images.githubusercontent.com/21315200/175086309-18d754f6-6e3e-4b57-84fc-a307cf80575c.png)
 
-
-<h3>Requisitos</h3>
-
- - Visual Studio com Pacote de LocalDB(SQL) e .Net Framework 4.7.2
- - Git para clone do projeto (Caso prefira, é possível baixar a solução em .zip)
 
