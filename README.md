@@ -5,7 +5,7 @@ PedidosWeb é um Programa Web em ASP.NET MVC5 (.NET Framework) para fins de apre
 
 ![image](https://user-images.githubusercontent.com/21315200/175049089-725dc506-a74c-4ecb-abd9-24edd0192428.png)
 
-Para realizar o acesso ao projeto basta realizar o clone: "git clone https://github.com/mottaflm/PedidosWeb.git NOME_PASTA" e executar o .sln
+Para realizar o acesso ao projeto basta realizar o clone: "git clone https://github.com/mottaflm/PedidosWeb.git NOME_PASTA", executar o .sln e compilar/executar o projeto (F5).
 
 <h3>Funcionalidades</h3>
 
